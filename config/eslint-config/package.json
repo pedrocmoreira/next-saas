@@ -15,6 +15,10 @@
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "@saas/prettier":"workspace:*"
+    "@saas/prettier":"*"
+  },
+  "prettier":"@saas/prettier",
+  "eslintConfig" : {
+    "extends": ["./library.js"]
   }
 }
